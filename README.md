@@ -45,3 +45,14 @@ ai-resume-analyzer/
 │       └── PromptRevealPanel.tsx   # System and user prompt viewer
 ├── .env.example                 # Environment variables template
 └── vite.config.ts               # Vite configuration
+
+
+
+🔄 How It Works
+Upload & Extraction: Upload a resume in PDF or image format (PNG/JPG/WEBP), paste raw text, or select a preloaded scenario. OCR handles image-based files.
+
+ATS Scoring: The analysis engine evaluates the resume against the target Job Description across 4 pillars: Skills Match, Experience Relevance, Keyword Density, and Formatting Clarity.
+
+Resume Optimization: The rewriter injects missing high-value keywords and strengthens bullet points while strictly preserving existing employment facts, company names, and dates.
+
+PDF Export: Generate and download a recruiter-ready, ATS-compliant PDF directly from the browser.
