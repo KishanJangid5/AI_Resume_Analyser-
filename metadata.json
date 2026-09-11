@@ -1,0 +1,6 @@
+{
+  "name": "AI Resume Analyzer",
+  "description": "Upload a resume (PDF/Image) and job description to calculate ATS match score, identify missing keywords, generate AI-optimized resumes with diff tracking, and inspect tailored AI prompts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
